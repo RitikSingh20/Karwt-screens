@@ -5,15 +5,17 @@ import Policy from './components/Policy';
 import Trackorders from './components/Trackorders'
 import { Errorpage } from './components/Errorpage';
 import { Faqpage } from './components/Faqpage';
-
+import {Blog } from './components/Blog'
+ 
 
 function App() {
   return (
      <div>
        {/* <Policy/>
        <Trackorders /> */}
-       <Errorpage/>
-       <Faqpage />
+       {/* <Errorpage/>
+       <Faqpage /> */}
+       <Blog />
      </div>
   );
 }
