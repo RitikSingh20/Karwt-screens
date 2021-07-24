@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Trackorders from './components/Trackorders';
+import Policy from './components/Policy';
+import Trackorders from './components/Trackorders'
+
 
 function App() {
   return (
      <div>
-       <Trackorders/>
+       <Policy/>
+       <Trackorders />
      </div>
   );
 }
