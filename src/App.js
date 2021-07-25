@@ -6,16 +6,18 @@ import Trackorders from './components/Trackorders'
 import { Errorpage } from './components/Errorpage';
 import { Faqpage } from './components/Faqpage';
 import {Blog } from './components/Blog'
+import { Categories } from './components/Categories';
  
 
 function App() {
   return (
      <div>
-       {/* <Policy/>
-       <Trackorders /> */}
-       {/* <Errorpage/>
-       <Faqpage /> */}
-       <Blog />
+        {/* <Policy/>
+       <Trackorders /> 
+       <Errorpage/> */}
+       <Faqpage /> 
+       {/* <Blog /> */}
+       <Categories />
      </div>
   );
 }
