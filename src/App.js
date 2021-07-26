@@ -7,6 +7,7 @@ import { Errorpage } from './components/Errorpage';
 import { Faqpage } from './components/Faqpage';
 import {Blog } from './components/Blog'
 import { Categories } from './components/Categories';
+import { Blogdetails } from './components/Blogdetails';
  
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
         {/* <Policy/>
        <Trackorders /> 
        <Errorpage/> */}
-       <Faqpage /> 
+       {/* <Faqpage />  */}
        {/* <Blog /> */}
-       <Categories />
+       {/* <Categories /> */}
+       <Blogdetails />
      </div>
   );
 }

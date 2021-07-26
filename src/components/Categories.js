@@ -1,6 +1,7 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const Categories = () => {
+export const Categories = (props) => {
     return (
         <div>
 
@@ -570,6 +571,7 @@ export const Categories = () => {
             </div>
             {/* <!-- /.sidebar-widget --> 
           <!----------- Testimonials-------------> */}
+		  
             <div  className="sidebar-widget  wow fadeInUp outer-top-vs ">
               <div id="advertisement"  className="advertisement">
                 <div  className="item">
@@ -585,7 +587,7 @@ export const Categories = () => {
                   <div  className="testimonials"><em>"</em>Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                   <div  className="clients_author">Stephen Doe <span>Xperia Designs</span> </div>
                 </div>
-            /
+            
                 
                 <div  className="item">
                   <div  className="avatar"><img src="assets/images/testimonials/member2.png" alt="Image"/></div>
@@ -593,11 +595,12 @@ export const Categories = () => {
                   <div  className="clients_author">Saraha Smith <span>Datsun &amp; Co</span> </div>
                   {/* <!-- /.container-fluid -->  */}
                 </div>
-            / 
+             
                 
               </div>
               {/* <!-- /.owl-carousel -->  */}
             </div>
+		 
             
             {/* <!-- ============================================== Testimonials: END ============================================== --> */}
             
