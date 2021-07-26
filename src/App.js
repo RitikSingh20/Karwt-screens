@@ -20,6 +20,7 @@ function App() {
        {/* <Blog /> */}
        {/* <Categories /> */}
        <Blogdetails />
+       <Blog />
      </div>
   );
 }
