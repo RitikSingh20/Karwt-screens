@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export const Blogdetails = (props) => {
   return (
     <div>
@@ -59,7 +60,7 @@ export const Blogdetails = (props) => {
                       />
                     </div>
                     <div class="col-md-10">
-                      <h4>John Doe</h4>
+                      <h4>{props.aname}</h4>
                       <div class="btn-group author-social-network pull-right">
                         <span>Follow me on</span>
                         <button

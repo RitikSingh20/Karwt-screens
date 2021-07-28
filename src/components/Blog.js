@@ -1,7 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
+ 
 
-export const Blog = (props) => {
+ 
+
+
+const Blog = (props) => {
   return (
     <>
       <div class="breadcrumb">
@@ -24,7 +28,7 @@ export const Blog = (props) => {
               <div class="col-md-9">
                 <div class="blog-post  wow fadeInUp">
                   <a href="blog-details.html">
-                    <img class="img-responsive" src={props.imgsrc} alt="" />
+                    <img   src="assets/images/blog-post/blog_big_01.jpg" alt="Image" />
                   </a>
                   <h1>
                     <a href="blog-details.html">{props.bdetail}</a>
@@ -71,7 +75,11 @@ export const Blog = (props) => {
             </div>
           </div>
         </div>
+      
       </div>
+ 
     </>
   );
 };
+
+export default Blog

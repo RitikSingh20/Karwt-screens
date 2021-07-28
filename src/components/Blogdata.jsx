@@ -1,4 +1,4 @@
-const Blog =[
+ const Blogdata =[
     {
         imgsrc:"assets/images/blog-post/blog_big_01.jpg",
         bdetail:"  Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
@@ -27,5 +27,7 @@ const Blog =[
 
     }
 ]
+export default Blogdata;
+ 
 
-export default Blog
+ 
